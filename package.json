@@ -1,0 +1,24 @@
+{
+  "name": "my-razzle-app",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "razzle start",
+    "build": "razzle build",
+    "test": "razzle test --env=jsdom",
+    "start:prod": "NODE_ENV=production node build/server.js"
+  },
+  "dependencies": {
+    "antd": "^3.13.5",
+    "express": "4.16.4",
+    "razzle": "2.4.1",
+    "react": "16.8.2",
+    "react-dom": "16.8.2",
+    "react-draggable": "^3.1.1",
+    "react-router-dom": "4.3.1",
+    "semantic-ui-react": "^0.85.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.29.5"
+  }
+}
