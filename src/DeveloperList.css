@@ -1,0 +1,53 @@
+
+
+.listContainer {
+  display: flex;
+  position: relative;
+}
+
+.listContainer .card {
+    padding:2em;
+    width:100%;
+ }
+
+.parentContainer {
+  padding-top:5em;
+}
+
+.listContainer div.item {
+  margin-bottom:16px;
+}
+
+div.top-dash-container {
+  padding-bottom:3em;
+}
+
+div.recentActivity {
+
+}
+
+.listContainer.event {
+	display:flex;
+}
+
+.ui.card {
+	width:100% !important;
+}
+
+.parentContainer {
+	background: #e7e7e7;
+
+padding: 3em;
+
+    padding-top: 3em;
+
+position: relative;
+
+top: 8rem;
+
+padding-top: 1rem;
+
+border: 1px solid transparent;
+
+border-radius: 14px;
+}
